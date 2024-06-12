@@ -1,5 +1,4 @@
 class searchElement {
-
     static int findelement(int arr[],int n,int key){
         for(int i=0;i<arr.length;i++){
             if(arr[i]==key){
@@ -21,3 +20,6 @@ class searchElement {
         }
     }
 }
+
+// Input --> arr=[10,5,6,2,1,8,7],key=2
+// Output--> 4
